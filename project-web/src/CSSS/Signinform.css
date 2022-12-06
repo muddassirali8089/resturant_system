@@ -11,3 +11,8 @@
     color: aliceblue;
   
 }
+#btndiv{
+
+    display: block;
+    background-color: aqua;
+}

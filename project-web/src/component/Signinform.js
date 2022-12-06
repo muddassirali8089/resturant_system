@@ -57,7 +57,13 @@ setPassword(newpassword);
           <div class="mb-3 form-check">
            
           </div>
-          <button type="submit" class="btn btn-dark">SignIn</button>
+          <div id=''>
+
+          <button type="submit" class="btn btn-dark" >SignIn</button>
+          </div>
+          <button type="submit" class="btn btn-dark" style={{marginLeft: "380px" , marginTop:"-65px"  , fontSize:".7vw"}}>Forget password</button>
+
+          
      </form>
 
       {email}
