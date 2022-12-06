@@ -1,0 +1,20 @@
+#mainright{
+
+    margin-top: 14vh;
+}
+
+#mainright{
+
+    display: flex;
+   
+    flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: center;
+    background-color: white;
+   
+    border-radius: 25px;
+   
+   
+
+    
+}

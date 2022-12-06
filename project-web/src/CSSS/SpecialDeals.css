@@ -1,0 +1,33 @@
+#nav2{
+    height: 10vh;
+    width: 98.5vw;
+    margin-top: 15vh; 
+    background-color: rgb(48, 33, 33);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: cursive;
+    color: aliceblue;
+    
+}
+#main{
+
+    display: flex;
+   
+    flex-wrap: wrap;
+    width: 100%;
+    padding-inline: 15%;
+   
+
+    
+}
+#cards{
+
+  margin: 15px;
+   border-radius: 15px;
+   background-color: black;
+   font-family: cursive;
+   color: aliceblue;
+   display: table-row-group;
+   
+}

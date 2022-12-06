@@ -1,0 +1,45 @@
+ body{
+    background : url(../CSSS/backgroundimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.logo{
+    color: aliceblue;
+}
+
+
+nav{
+
+
+   
+
+    z-index: 1;
+    height: 90px;
+    width: 100vw;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: black;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  
+    
+}
+ ul {
+    
+    display: flex;
+    margin: 0px;
+    
+}
+li{
+
+    list-style: none;
+    margin-right: 30px;
+    padding: 0px;
+}
+
+    

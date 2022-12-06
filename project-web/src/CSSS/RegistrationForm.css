@@ -1,0 +1,12 @@
+#RegistrationForm{
+   
+    margin-top: 13vh;
+     height: 80vh;
+     width: 30vw;
+     border-radius: 5%;
+     padding-left: 30px;
+     margin-left: 35vw;
+     font-family: cursive;
+     color: aliceblue;
+     background-color: black;
+ }
