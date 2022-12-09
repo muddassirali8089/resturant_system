@@ -25,10 +25,10 @@ function NavBar() {
   
   <li>  <button className="btn btn-dark" type="button">Menu</button></li>
   </Link>
-   <Link to ="/SpecialDeals">
+   {/* <Link to ="/SpecialDeals">
   
   <li>  <button className="btn btn-dark" type="button">Special Deals</button> </li>
-  </Link> 
+  </Link>  */}
   <Link to= "/ContuctUs">
   <li>  <button className="btn btn-dark" type="button">Contuct Us</button></li>
   </Link>

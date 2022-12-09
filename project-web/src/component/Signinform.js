@@ -1,23 +1,32 @@
-import { useState } from 'react';
+import {  useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import '../CSSS/Signinform.css'
-import NavBar from './NavBar';
+
 function Signinform() {
 
  const [email , setEmail] = useState("");
  const [password , setPassword]=useState("");
 
-  
+  const navigate  = useNavigate();
 
 const HandleSubmit = (e) =>{
 
   e.preventDefault(); // it will convert the default behavior of button
-  console.log("Submitted..");
+  
+  console.log(email , password);
+  if(!email || !password) return ;
+  if(email=== "ali@gmail.com" || password ==="123"){
+navigate('/');
+  }
+   
 
 }
 
 const handleEmailChange = (e) =>{
 
 const newemail = e.currentTarget.value;
+
 setEmail(newemail);
 
 }
