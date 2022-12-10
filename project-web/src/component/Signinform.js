@@ -15,7 +15,9 @@ const HandleSubmit = (e) =>{
   e.preventDefault(); // it will convert the default behavior of button
   
   console.log(email , password);
-  if(!email || !password) return ;
+  if(!email || !password){
+    alert("enter valid email");
+  } ;
   if(email=== "ali@gmail.com" || password ==="123"){
 navigate('/');
   }
