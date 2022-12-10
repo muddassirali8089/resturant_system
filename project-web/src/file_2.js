@@ -5,13 +5,13 @@ function File_2(prop) {
        
             {
             
-            prop.dt.map((d) => (
+            prop.dt.map( d => {
                 <div>
 
                 <h1>ID: {d.id}</h1>
                 <h1>ID: {d.name}</h1>
                </div>
-            ))
+ } )
          }
         </div>
      );

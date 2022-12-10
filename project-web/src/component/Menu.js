@@ -15,12 +15,6 @@ const Menu = () => {
         {id : "6" ,count:0, Name : "Chicken Pizza" , price : " RS : 600" , image : <img src={require('../pizaimages/img6.jfif')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>} ,
         {id : "7" ,count:0, Name : "Hawaiian Pizza" , price : " RS : 650" , image : <img src={require('../pizaimages/img7.jfif')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>},
         {id : "8" ,count:0, Name : "Buffalo Pizza" , price : " RS : 550" , image : <img src={require('../pizaimages/img8.jfif')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>}
-       
-       
-       
-       
-      
- 
         
     ]);
 
@@ -37,10 +31,6 @@ const Menu = () => {
         {id : "7" ,count:0, Name : "Turkey burger " , price : " RS : 650" , image : <img src={require('../burgerimges/Turkey_burger.jpg')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>},
         {id : "8" ,count:0, Name : "Veggie burger" , price : " RS : 550" , image : <img src={require('../burgerimges/vegie_burger.jpg')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>} 
        
-       
-      
- 
-        
     ]);
 
 
@@ -55,10 +45,6 @@ const Menu = () => {
         {id : "6" , Name : "vanila" , price : " RS : 150" , image : <img src={require('../milkshakeimg/vanila.webp')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>} ,
         {id : "7" , Name : "Mango" , price : " RS : 120" , image : <img src={require('../milkshakeimg/mango.webp')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>},
         {id : "8" , Name : "Banana" , price : " RS : 140" , image : <img src={require('../milkshakeimg/banana.webp')} alt="nolodead" style = {{height: "20vh" , width : " 10vw"}}/>} 
-       
-       
-      
- 
         
     ]);
    

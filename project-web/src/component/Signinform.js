@@ -16,9 +16,9 @@ const HandleSubmit = (e) =>{
   
   console.log(email , password);
   if(!email || !password){
-    alert("enter valid email");
-  } ;
-  if(email=== "ali@gmail.com" || password ==="123"){
+    return ;  
+  } 
+   else if(email=== "ali@gmail.com" || password ==="123"){
 navigate('/');
   }
    
@@ -27,9 +27,7 @@ navigate('/');
 
 const handleEmailChange = (e) =>{
 
-const newemail = e.currentTarget.value;
-
-setEmail(newemail);
+setEmail(e.currentTarget.value);
 
 }
 
@@ -54,7 +52,7 @@ setPassword(newpassword);
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label "><b>Email Address</b> </label>
             <input placeholder='Email'  onChange={handleEmailChange}
-             value ={email} 
+             
              type="email" 
               class="form-control"
                id="exampleInputEmail1"
@@ -63,7 +61,7 @@ setPassword(newpassword);
           </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label"><b>Password</b></label>
-            <input placeholder='Password' onChange={handlePasswardChange} value= {password} type="password" class="form-control" id="exampleInputPassword1"/>
+            <input placeholder='Password' onChange={handlePasswardChange}  type="password" class="form-control" id="exampleInputPassword1"/>
           </div>
           <div class="mb-3 form-check">
            
