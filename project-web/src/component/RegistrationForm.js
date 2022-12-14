@@ -1,9 +1,9 @@
 import '../CSSS/RegistrationForm.css';
 import NavBar from './NavBar';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 function RegistrationForm() {
 
-
+const ref=useRef();
 
 const [firstname , setFirstName] = useState("");
 
@@ -20,6 +20,8 @@ const [adress2 , setAdress2] = useState("");
 
 const onSubmit = (event) =>{
 event.preventDefault();
+
+console.log(ref.current.value);
 
 
 }
@@ -83,7 +85,7 @@ const handleChange = (e) =>{
  <form  onSubmit={onSubmit}>
    <div class="form-group col-md-6">
      <label for="formGroupExampleInput">First Name</label>
-     <input    onChange={handleChange}  name = "firstname" value={firstname} type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name"/>
+     <input    onChange={handleChange}  name = "firstname" value={firstname} type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" ref={ref}/>
    </div>
    <div class="form-group col-md-6">
      <label for="formGroupExampleInput2">Last Name</label>

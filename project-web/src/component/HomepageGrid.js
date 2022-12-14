@@ -23,8 +23,11 @@ const HomepageGrid = () => {
             </section>
         </div>
 
+
+           
+            </div>
        
-        </div>
+       
 
     );
 }
